@@ -1,0 +1,859 @@
+[
+  {
+    "id": 1,
+    "slug": "cows-milk",
+    "food_item": "Cows milk",
+    "protein_g_per_100g": 3.2,
+    "cost_eur_per_100g": 0.13,
+    "calories_per_100g": 68,
+    "cost_per_g_protein_eur": 0.0406,
+    "calories_per_g_protein": 21.25,
+    "protein_per_100kcal_g": 4.71,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 2,
+    "slug": "soy-milk",
+    "food_item": "Soy milk",
+    "protein_g_per_100g": 3.3,
+    "cost_eur_per_100g": 0.25,
+    "calories_per_100g": 45,
+    "cost_per_g_protein_eur": 0.0758,
+    "calories_per_g_protein": 13.64,
+    "protein_per_100kcal_g": 7.33,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "plant_milk",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "soy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 3,
+    "slug": "egg-white",
+    "food_item": "Egg white",
+    "protein_g_per_100g": 11,
+    "cost_eur_per_100g": 0.75,
+    "calories_per_100g": 52,
+    "cost_per_g_protein_eur": 0.0682,
+    "calories_per_g_protein": 4.73,
+    "protein_per_100kcal_g": 21.15,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "eggs",
+    "diet_tags": [
+      "vegetarian",
+      "eggs"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 4,
+    "slug": "whole-egg",
+    "food_item": "Whole egg",
+    "protein_g_per_100g": 6.3,
+    "cost_eur_per_100g": 0.53,
+    "calories_per_100g": 143,
+    "cost_per_g_protein_eur": 0.0841,
+    "calories_per_g_protein": 22.7,
+    "protein_per_100kcal_g": 4.41,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "eggs",
+    "diet_tags": [
+      "vegetarian",
+      "eggs"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 5,
+    "slug": "pinto-bean",
+    "food_item": "Pinto bean",
+    "protein_g_per_100g": 21,
+    "cost_eur_per_100g": 0.5,
+    "calories_per_100g": 143,
+    "cost_per_g_protein_eur": 0.0238,
+    "calories_per_g_protein": 6.81,
+    "protein_per_100kcal_g": 14.69,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 6,
+    "slug": "lentil",
+    "food_item": "Lentil",
+    "protein_g_per_100g": 26,
+    "cost_eur_per_100g": 0.4,
+    "calories_per_100g": 116,
+    "cost_per_g_protein_eur": 0.0154,
+    "calories_per_g_protein": 4.46,
+    "protein_per_100kcal_g": 22.41,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 7,
+    "slug": "chickpea",
+    "food_item": "Chickpea",
+    "protein_g_per_100g": 19,
+    "cost_eur_per_100g": 0.6,
+    "calories_per_100g": 164,
+    "cost_per_g_protein_eur": 0.0316,
+    "calories_per_g_protein": 8.63,
+    "protein_per_100kcal_g": 11.59,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 8,
+    "slug": "split-pea",
+    "food_item": "Split pea",
+    "protein_g_per_100g": 25,
+    "cost_eur_per_100g": 0.45,
+    "calories_per_100g": 117,
+    "cost_per_g_protein_eur": 0.018,
+    "calories_per_g_protein": 4.68,
+    "protein_per_100kcal_g": 21.37,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 9,
+    "slug": "peanut",
+    "food_item": "Peanut",
+    "protein_g_per_100g": 26,
+    "cost_eur_per_100g": 0.6,
+    "calories_per_100g": 567,
+    "cost_per_g_protein_eur": 0.0231,
+    "calories_per_g_protein": 21.81,
+    "protein_per_100kcal_g": 4.59,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume_nut",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume",
+      "nut"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 10,
+    "slug": "almond",
+    "food_item": "Almond",
+    "protein_g_per_100g": 21,
+    "cost_eur_per_100g": 4.5,
+    "calories_per_100g": 579,
+    "cost_per_g_protein_eur": 0.2143,
+    "calories_per_g_protein": 27.57,
+    "protein_per_100kcal_g": 3.63,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "nut",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "nut"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 11,
+    "slug": "cashew",
+    "food_item": "Cashew",
+    "protein_g_per_100g": 18,
+    "cost_eur_per_100g": 4.5,
+    "calories_per_100g": 553,
+    "cost_per_g_protein_eur": 0.25,
+    "calories_per_g_protein": 30.72,
+    "protein_per_100kcal_g": 3.25,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "nut",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "nut"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 12,
+    "slug": "pistachio",
+    "food_item": "Pistachio",
+    "protein_g_per_100g": 20,
+    "cost_eur_per_100g": 5.5,
+    "calories_per_100g": 562,
+    "cost_per_g_protein_eur": 0.275,
+    "calories_per_g_protein": 28.1,
+    "protein_per_100kcal_g": 3.56,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "nut",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "nut"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 13,
+    "slug": "walnut",
+    "food_item": "Walnut",
+    "protein_g_per_100g": 15,
+    "cost_eur_per_100g": 3.75,
+    "calories_per_100g": 654,
+    "cost_per_g_protein_eur": 0.25,
+    "calories_per_g_protein": 43.6,
+    "protein_per_100kcal_g": 2.29,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "nut",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "nut"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 14,
+    "slug": "chia-seed",
+    "food_item": "Chia seed",
+    "protein_g_per_100g": 17,
+    "cost_eur_per_100g": 3.4,
+    "calories_per_100g": 486,
+    "cost_per_g_protein_eur": 0.2,
+    "calories_per_g_protein": 28.59,
+    "protein_per_100kcal_g": 3.5,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "seed",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "seed"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 15,
+    "slug": "flaxseed",
+    "food_item": "Flaxseed",
+    "protein_g_per_100g": 18,
+    "cost_eur_per_100g": 3.15,
+    "calories_per_100g": 534,
+    "cost_per_g_protein_eur": 0.175,
+    "calories_per_g_protein": 29.67,
+    "protein_per_100kcal_g": 3.37,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "seed",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "seed"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 16,
+    "slug": "broccoli",
+    "food_item": "Broccoli",
+    "protein_g_per_100g": 2.8,
+    "cost_eur_per_100g": 0.56,
+    "calories_per_100g": 34,
+    "cost_per_g_protein_eur": 0.2,
+    "calories_per_g_protein": 12.14,
+    "protein_per_100kcal_g": 8.24,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "vegetable",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "vegetable"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 17,
+    "slug": "brussel-sprout",
+    "food_item": "Brussel sprout",
+    "protein_g_per_100g": 3.4,
+    "cost_eur_per_100g": 1.35,
+    "calories_per_100g": 43,
+    "cost_per_g_protein_eur": 0.3971,
+    "calories_per_g_protein": 12.65,
+    "protein_per_100kcal_g": 7.91,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "vegetable",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "vegetable"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 18,
+    "slug": "corn-on-the-cob",
+    "food_item": "Corn on the cob",
+    "protein_g_per_100g": 3.3,
+    "cost_eur_per_100g": 0.45,
+    "calories_per_100g": 86,
+    "cost_per_g_protein_eur": 0.1364,
+    "calories_per_g_protein": 26.06,
+    "protein_per_100kcal_g": 3.84,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "vegetable",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "vegetable"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 19,
+    "slug": "spinach",
+    "food_item": "Spinach",
+    "protein_g_per_100g": 2.9,
+    "cost_eur_per_100g": 1.05,
+    "calories_per_100g": 23,
+    "cost_per_g_protein_eur": 0.3621,
+    "calories_per_g_protein": 7.93,
+    "protein_per_100kcal_g": 12.61,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "vegetable",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "leafy_green",
+      "vegetable"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 20,
+    "slug": "russet-potato",
+    "food_item": "Russet potato",
+    "protein_g_per_100g": 2.1,
+    "cost_eur_per_100g": 0.21,
+    "calories_per_100g": 77,
+    "cost_per_g_protein_eur": 0.1,
+    "calories_per_g_protein": 36.67,
+    "protein_per_100kcal_g": 2.73,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "tuber",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "tuber"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 21,
+    "slug": "sweet-pea",
+    "food_item": "Sweet pea",
+    "protein_g_per_100g": 5.5,
+    "cost_eur_per_100g": 0.56,
+    "calories_per_100g": 81,
+    "cost_per_g_protein_eur": 0.1018,
+    "calories_per_g_protein": 14.73,
+    "protein_per_100kcal_g": 6.79,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 22,
+    "slug": "brown-rice",
+    "food_item": "Brown rice",
+    "protein_g_per_100g": 2.6,
+    "cost_eur_per_100g": 0.26,
+    "calories_per_100g": 111,
+    "cost_per_g_protein_eur": 0.1,
+    "calories_per_g_protein": 42.69,
+    "protein_per_100kcal_g": 2.34,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "grain",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 23,
+    "slug": "oat",
+    "food_item": "Oat",
+    "protein_g_per_100g": 17,
+    "cost_eur_per_100g": 1.7,
+    "calories_per_100g": 389,
+    "cost_per_g_protein_eur": 0.1,
+    "calories_per_g_protein": 22.88,
+    "protein_per_100kcal_g": 4.37,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "grain",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 24,
+    "slug": "quinoa",
+    "food_item": "Quinoa",
+    "protein_g_per_100g": 4.4,
+    "cost_eur_per_100g": 0.66,
+    "calories_per_100g": 120,
+    "cost_per_g_protein_eur": 0.15,
+    "calories_per_g_protein": 27.27,
+    "protein_per_100kcal_g": 3.67,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "pseudograin",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 25,
+    "slug": "rye-bread",
+    "food_item": "Rye bread",
+    "protein_g_per_100g": 9.5,
+    "cost_eur_per_100g": 1.0,
+    "calories_per_100g": 258,
+    "cost_per_g_protein_eur": 0.1053,
+    "calories_per_g_protein": 27.16,
+    "protein_per_100kcal_g": 3.68,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "bread",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain",
+      "bread"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 26,
+    "slug": "whole-wheat-bread",
+    "food_item": "Whole wheat bread",
+    "protein_g_per_100g": 10,
+    "cost_eur_per_100g": 0.75,
+    "calories_per_100g": 246,
+    "cost_per_g_protein_eur": 0.075,
+    "calories_per_g_protein": 24.6,
+    "protein_per_100kcal_g": 4.07,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "bread",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain",
+      "bread"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 27,
+    "slug": "wheat-spaghetti",
+    "food_item": "Wheat spaghetti",
+    "protein_g_per_100g": 13,
+    "cost_eur_per_100g": 0.65,
+    "calories_per_100g": 157,
+    "cost_per_g_protein_eur": 0.05,
+    "calories_per_g_protein": 12.08,
+    "protein_per_100kcal_g": 8.28,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "pasta",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain",
+      "pasta"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 28,
+    "slug": "tofu",
+    "food_item": "Tofu",
+    "protein_g_per_100g": 8,
+    "cost_eur_per_100g": 1.5,
+    "calories_per_100g": 76,
+    "cost_per_g_protein_eur": 0.1875,
+    "calories_per_g_protein": 9.5,
+    "protein_per_100kcal_g": 10.53,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "soy_product",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "soy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 29,
+    "slug": "seitan",
+    "food_item": "Seitan",
+    "protein_g_per_100g": 25,
+    "cost_eur_per_100g": 3.0,
+    "calories_per_100g": 120,
+    "cost_per_g_protein_eur": 0.12,
+    "calories_per_g_protein": 4.8,
+    "protein_per_100kcal_g": 20.83,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "wheat_protein",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "wheat"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 30,
+    "slug": "lentil-pasta",
+    "food_item": "Lentil pasta",
+    "protein_g_per_100g": 12,
+    "cost_eur_per_100g": 1.2,
+    "calories_per_100g": 150,
+    "cost_per_g_protein_eur": 0.1,
+    "calories_per_g_protein": 12.5,
+    "protein_per_100kcal_g": 8.0,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "pasta",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume",
+      "pasta"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 31,
+    "slug": "avg-fake-beef-burger",
+    "food_item": "Avg. fake beef burger",
+    "protein_g_per_100g": 20,
+    "cost_eur_per_100g": 5.0,
+    "calories_per_100g": 220,
+    "cost_per_g_protein_eur": 0.25,
+    "calories_per_g_protein": 11.0,
+    "protein_per_100kcal_g": 9.09,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "meat_alternative",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "meat_alternative"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 32,
+    "slug": "grated-cheese",
+    "food_item": "Grated cheese",
+    "protein_g_per_100g": 10,
+    "cost_eur_per_100g": 2.0,
+    "calories_per_100g": 392,
+    "cost_per_g_protein_eur": 0.2,
+    "calories_per_g_protein": 39.2,
+    "protein_per_100kcal_g": 2.55,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 33,
+    "slug": "wheat-germ",
+    "food_item": "Wheat germ",
+    "protein_g_per_100g": 10,
+    "cost_eur_per_100g": 1.5,
+    "calories_per_100g": 376,
+    "cost_per_g_protein_eur": 0.15,
+    "calories_per_g_protein": 37.6,
+    "protein_per_100kcal_g": 2.66,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "grain",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "grain"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 34,
+    "slug": "brewers-yeast",
+    "food_item": "Brewers yeast",
+    "protein_g_per_100g": 50,
+    "cost_eur_per_100g": 6.0,
+    "calories_per_100g": 327,
+    "cost_per_g_protein_eur": 0.12,
+    "calories_per_g_protein": 6.54,
+    "protein_per_100kcal_g": 15.29,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "yeast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "yeast"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 35,
+    "slug": "parmesan",
+    "food_item": "Parmesan",
+    "protein_g_per_100g": 33,
+    "cost_eur_per_100g": 3.0,
+    "calories_per_100g": 431,
+    "cost_per_g_protein_eur": 0.0909,
+    "calories_per_g_protein": 13.06,
+    "protein_per_100kcal_g": 7.66,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 36,
+    "slug": "cheddar",
+    "food_item": "Cheddar",
+    "protein_g_per_100g": 25,
+    "cost_eur_per_100g": 2.5,
+    "calories_per_100g": 402,
+    "cost_per_g_protein_eur": 0.1,
+    "calories_per_g_protein": 16.08,
+    "protein_per_100kcal_g": 6.22,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 37,
+    "slug": "mozzarella",
+    "food_item": "Mozzarella",
+    "protein_g_per_100g": 22,
+    "cost_eur_per_100g": 2.0,
+    "calories_per_100g": 280,
+    "cost_per_g_protein_eur": 0.0909,
+    "calories_per_g_protein": 12.73,
+    "protein_per_100kcal_g": 7.86,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 38,
+    "slug": "feta",
+    "food_item": "Feta",
+    "protein_g_per_100g": 14,
+    "cost_eur_per_100g": 2.5,
+    "calories_per_100g": 264,
+    "cost_per_g_protein_eur": 0.1786,
+    "calories_per_g_protein": 18.86,
+    "protein_per_100kcal_g": 5.3,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 39,
+    "slug": "cottage-cheese",
+    "food_item": "Cottage cheese",
+    "protein_g_per_100g": 11,
+    "cost_eur_per_100g": 1.5,
+    "calories_per_100g": 98,
+    "cost_per_g_protein_eur": 0.1364,
+    "calories_per_g_protein": 8.91,
+    "protein_per_100kcal_g": 11.22,
+    "is_vegan": false,
+    "is_vegetarian": true,
+    "food_group": "dairy",
+    "diet_tags": [
+      "vegetarian",
+      "dairy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 40,
+    "slug": "tempeh",
+    "food_item": "Tempeh",
+    "protein_g_per_100g": 19,
+    "cost_eur_per_100g": 2.0,
+    "calories_per_100g": 192,
+    "cost_per_g_protein_eur": 0.1053,
+    "calories_per_g_protein": 10.11,
+    "protein_per_100kcal_g": 9.9,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "soy_product",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "soy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 41,
+    "slug": "edamame",
+    "food_item": "Edamame",
+    "protein_g_per_100g": 11,
+    "cost_eur_per_100g": 0.75,
+    "calories_per_100g": 122,
+    "cost_per_g_protein_eur": 0.0682,
+    "calories_per_g_protein": 11.09,
+    "protein_per_100kcal_g": 9.02,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "soy_product",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "soy"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 42,
+    "slug": "black-beans",
+    "food_item": "Black beans",
+    "protein_g_per_100g": 21,
+    "cost_eur_per_100g": 0.5,
+    "calories_per_100g": 132,
+    "cost_per_g_protein_eur": 0.0238,
+    "calories_per_g_protein": 6.29,
+    "protein_per_100kcal_g": 15.91,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  },
+  {
+    "id": 43,
+    "slug": "kidney-beans",
+    "food_item": "Kidney beans",
+    "protein_g_per_100g": 24,
+    "cost_eur_per_100g": 0.45,
+    "calories_per_100g": 129,
+    "cost_per_g_protein_eur": 0.0187,
+    "calories_per_g_protein": 5.38,
+    "protein_per_100kcal_g": 18.6,
+    "is_vegan": true,
+    "is_vegetarian": true,
+    "food_group": "legume",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "legume"
+    ],
+    "source_note": "Reconstructed from the user-provided Veggie Food 3D Graph sample dataset."
+  }
+]
