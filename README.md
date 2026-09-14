@@ -4,6 +4,33 @@ Interactive 3D visualization of 43 vegetarian and vegan protein sources. Explore
 
 **Live:** [veggie-nutriverse.vercel.app](https://veggie-nutriverse.vercel.app)
 
+## Status
+
+| Owner | Stack | Version | Stage | Live | Last commit | Branch |
+|---|---|---|---|---|---|---|
+| Pitsana / Heva Pulse side project | Next.js 15 (static export), React Three Fiber, Three.js, Tailwind | 0.1.0 | Production (finished side project) | Yes, veggie-nutriverse.vercel.app (confirmed responding) | 2026-06-07 | master |
+
+### Production readiness: 76%
+
+Assessed 2026-09-14.
+
+| Stage | Weight | Score | State |
+|---|---|---|---|
+| Spec and feasibility | 5 | 5 | Small, well-scoped visualization concept, fully realized. |
+| Scaffold | 10 | 10 | Clean Next.js static export structure, R3F scene, typed data model. |
+| Working prototype | 15 | 15 | 3D scatter plot, filters, detail panel all functional. |
+| First real use | 10 | 10 | Deployed and reachable; used as intended by the owner. |
+| MVP complete | 15 | 12 | Complete for its narrow scope (43 foods, 3 axes); no further feature roadmap defined. |
+| Validated by users | 10 | 5 | No evidence of external user validation; a personal/portfolio side project. |
+| Hardening | 20 | 4 | No analytics, no error tracking, no legal pages; static data site so security surface is minimal. |
+| Production | 15 | 15 | Live and serving on the production Vercel domain, confirmed by direct fetch. |
+
+### Left to finish
+
+1. Add lightweight analytics if the goal is to learn from real visitors.
+2. Confirm SEO basics (meta description, OG image) are set for sharing.
+3. Decide if the dataset (43 foods) should grow, or if the project is considered complete as-is.
+
 ## What it shows
 
 Each food is a glowing sphere positioned in 3D space:
