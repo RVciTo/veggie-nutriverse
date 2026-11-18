@@ -37,13 +37,16 @@ extend({
 // Types
 // ---------------------------------------------------------------------------
 
-interface SceneProps {
+interface SceneContentProps {
   data: FoodItem[];
   selected: FoodItem | null;
   onSelect: (food: FoodItem | null) => void;
   onHover: (food: FoodItem | null) => void;
   visibleGroups: Set<string>;
   dietFilter: "all" | "vegan" | "vegetarian";
+}
+
+interface SceneProps extends SceneContentProps {
   isMobile?: boolean;
 }
 
@@ -294,7 +297,7 @@ function SceneContent({
   onHover,
   visibleGroups,
   dietFilter,
-}: SceneProps) {
+}: SceneContentProps) {
   const [hoveredFood, setHoveredFood] = useState<FoodItem | null>(null);
 
   const handleHover = useCallback(
@@ -363,8 +366,7 @@ function SceneContent({
 // Exported Canvas wrapper
 // ---------------------------------------------------------------------------
 
-export default function NutriScene(props: SceneProps) {
-  const { isMobile } = props;
+export default function NutriScene({ isMobile, ...contentProps }: SceneProps) {
   return (
     <div className="absolute inset-0">
       <Canvas
@@ -375,7 +377,7 @@ export default function NutriScene(props: SceneProps) {
         gl={{ antialias: true, alpha: false, powerPreference: "high-performance" }}
         dpr={[1, isMobile ? 1.5 : 2]}
       >
-        <SceneContent {...props} />
+        <SceneContent {...contentProps} />
       </Canvas>
     </div>
   );
